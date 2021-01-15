@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		9CC8F9DD25ADF564008C79CE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC8F9DC25ADF564008C79CE /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		9CC8F9D725ADF564008C79CE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,9 +19,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9C00EE4225AF40B60073F448 /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9C00EE4225AF40B60073F448 /* Closures Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Closures Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9C72635825B0ACE800A51AAD /* Closure Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Closure Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9CC8F9D925ADF564008C79CE /* Notes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Notes; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CC8F9DC25ADF564008C79CE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9CC8F9E425ADF586008C79CE /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -44,9 +40,9 @@
 			isa = PBXGroup;
 			children = (
 				9CC8F9E425ADF586008C79CE /* Functions.playground */,
-				9C00EE4225AF40B60073F448 /* Closures.playground */,
-				9CC8F9DB25ADF564008C79CE /* Notes */,
+				9C00EE4225AF40B60073F448 /* Closures Part 1.playground */,
 				9CC8F9DA25ADF564008C79CE /* Products */,
+				9C72635825B0ACE800A51AAD /* Closure Part 2.playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,14 +52,6 @@
 				9CC8F9D925ADF564008C79CE /* Notes */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9CC8F9DB25ADF564008C79CE /* Notes */ = {
-			isa = PBXGroup;
-			children = (
-				9CC8F9DC25ADF564008C79CE /* main.swift */,
-			);
-			path = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +111,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC8F9DD25ADF564008C79CE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

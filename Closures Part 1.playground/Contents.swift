@@ -42,6 +42,7 @@ travel(action: driving)
 
 // function can also be called by using these trailing closures (can also be without brackets)
 // It is calling the function, and specifying the closure
+// This function requires a parameter of closure, therefore it specifies one when calling using trailing closue syntax
 travel() {
     print("I'm driving in my car")
 }
