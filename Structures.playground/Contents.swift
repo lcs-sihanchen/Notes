@@ -48,8 +48,23 @@ progress.amount = 30
 progress.amount = 80
 progress.amount = 100
 
+// Method -- Functions in structures
+struct City {
+    var population: Int
+    
+    // Can always declare a method(function in a struct) using the stored properties inside of a structure
+    // Method can also include parameters inside, however it also needs to be put down when calling it
+    func collectTaxes(cityName:String) -> Int {
+        return population * 1000
+    }
+}
+
+// We can call the function like we did with different properties
+let london = City(population: 9_000_000)
+london.collectTaxes(cityName: "london")
 
 
+//
 
 
 
