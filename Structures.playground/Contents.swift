@@ -79,7 +79,31 @@ person.makeAnonymous()
 
 
 
-//
+let string = "Do or do not, there is no try."
+//You can read the number of characters in a string using its count property:
+//Properties that the website provides
+print(string.count)
+//They have a hasPrefix() method that returns true if the string starts with specific letters:
 
+print(string.hasPrefix("Do"))
+//You can uppercase a string by calling its uppercased() method:
 
+print(string.uppercased())
+//And you can even have Swift sort the letters of the string into an array:
 
+print(string.sorted())
+
+// My exploration
+// Add another string to the existing string
+print(string.appending("1"))
+// Replacing a certain string with another
+print(string.replacingOccurrences(of: "Do", with: "is"))
+
+// First letter capitalization
+print(string.capitalized)
+
+// Check if it is empty
+print(string.isEmpty)
+
+// Rearrange all characters into an array
+print(string.components(separatedBy: ""))
