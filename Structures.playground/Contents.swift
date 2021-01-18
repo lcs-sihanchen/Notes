@@ -107,3 +107,33 @@ print(string.isEmpty)
 
 // Rearrange all characters into an array
 print(string.components(separatedBy: ""))
+
+
+var toys = ["Woody"]
+//You can read the number of items in an array using its count property:
+
+print(toys.count)
+//If you want to add a new item, use the append() method like this:
+
+toys.append("Buzz")
+//You can locate any item inside an array using its firstIndex() method, like this:
+
+toys.firstIndex(of: "Buzz")
+//That will return 1 because arrays count from 0.
+
+//Just like with strings, you can have Swift sort the items of the array alphabetically:
+
+print(toys.sorted())
+//Finally, if you want to remove an item, use the remove() method like this:
+toys.remove(at: 0)
+
+
+//The array will only show everything else except for the first "1" term
+toys.dropFirst(1)
+// Textual reference of everything in this array
+toys.description
+// Remove all terms in the array while remaining its capacity
+toys.removeAll(keepingCapacity: true)
+// Remove everything
+toys.removeAll()
+
