@@ -64,6 +64,21 @@ let london = City(population: 9_000_000)
 london.collectTaxes(cityName: "london")
 
 
+
+// Mutating methods allow us to change the value of the stored property upon calling
+struct Person {
+    var name: String
+
+    mutating func makeAnonymous() {
+        name = "Anonymous"
+    }
+}
+// Test Case
+var person = Person(name: "Ed")
+person.makeAnonymous()
+
+
+
 //
 
 
