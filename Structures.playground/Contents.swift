@@ -31,3 +31,25 @@ print(chessBoxing.olympicStatus)
 //print(tennis.name)
 
 
+struct Progress {
+    var task: String
+    var amount: Int {
+        // Property Observer didSet: Every time the value of "amount" changes, it changes the printing message.
+        // Property Observer willSet: Takes action before a property changes(Not commonly used)
+        didSet {
+            print("\(task) is now \(amount)% complete")
+        }
+    }
+}
+
+var progress = Progress(task: "Loading data", amount: 0)
+// Test Cases
+progress.amount = 30
+progress.amount = 80
+progress.amount = 100
+
+
+
+
+
+
