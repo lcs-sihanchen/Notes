@@ -83,14 +83,11 @@ let string = "Do or do not, there is no try."
 //You can read the number of characters in a string using its count property:
 //Properties that the website provides
 print(string.count)
-//They have a hasPrefix() method that returns true if the string starts with specific letters:
-
+//They have a hasPrefix() method that returns true if the string starts with specific letters:x
 print(string.hasPrefix("Do"))
 //You can uppercase a string by calling its uppercased() method:
-
 print(string.uppercased())
 //And you can even have Swift sort the letters of the string into an array:
-
 print(string.sorted())
 
 // My exploration
