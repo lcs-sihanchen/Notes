@@ -20,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		9C00EE4225AF40B60073F448 /* Closures Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Closures Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		9C17493525B7252300AA6996 /* StructureAndClasses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StructureAndClasses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		9C17493725B7254B00AA6996 /* Structure Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Structure Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9C17493525B7252300AA6996 /* Structure Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Structure Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9C17493725B7254B00AA6996 /* StructureAndClasses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StructureAndClasses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9C72635825B0ACE800A51AAD /* Closure Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Closure Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9CC8F9D925ADF564008C79CE /* Notes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Notes; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC8F9E425ADF586008C79CE /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -42,8 +42,8 @@
 		9CC8F9D025ADF563008C79CE = {
 			isa = PBXGroup;
 			children = (
-				9C17493725B7254B00AA6996 /* Structure Part 2.playground */,
-				9C17493525B7252300AA6996 /* StructureAndClasses.playground */,
+				9C17493725B7254B00AA6996 /* StructureAndClasses.playground */,
+				9C17493525B7252300AA6996 /* Structure Part 2.playground */,
 				9CD7BE3225B617A5005719FC /* Structures.playground */,
 				9CC8F9E425ADF586008C79CE /* Functions.playground */,
 				9C00EE4225AF40B60073F448 /* Closures Part 1.playground */,
