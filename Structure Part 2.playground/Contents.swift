@@ -37,26 +37,26 @@ struct FamilyTree {
         print("Creating family tree!")
     }
 }
-struct Person {
-    var name: String
-    // Create the property familyTree upon calling
-    // If we don't want it to be created(not necessary at all times), use lazy
+//struct Person {
+//    var name: String
+//    // Create the property familyTree upon calling
+//    // If we don't want it to be created(not necessary at all times), use lazy
+//
+//
+//    //    var familyTree = FamilyTree()
+//
+//
+//    // No difference except it is not stored internally
+//    lazy var familyTree = FamilyTree()
+//
+//    init(name: String) {
+//        self.name = name
+//    }
+//}
 
-    
-    //    var familyTree = FamilyTree()
-    
-    
-    // No difference except it is not stored internally
-    lazy var familyTree = FamilyTree()
+//var ed = Person(name: "Ed")
 
-    init(name: String) {
-        self.name = name
-    }
-}
-
-var ed = Person(name: "Ed")
-
-ed.familyTree
+//ed.familyTree
 
 
 
@@ -81,3 +81,24 @@ print(Student.classSize)
 let ed2 = Student(name: "Ed")
 let taylor = Student(name: "Taylor")
 
+
+struct Person {
+    public var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+
+    func identify() -> String {
+        return "My social security number is \(id)"
+    }
+}
+
+
+var ad = Person(id: "12345")
+
+// These code below can only be called when the property is public
+// They are inaccessible if it is called private inside
+print(ad.id)
+ad.id = "23456"
+print(ad.id)
