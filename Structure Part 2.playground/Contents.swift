@@ -5,15 +5,16 @@ struct User {
     var username: String
     
     // Initializer provides a value for each property
-    init() {
-        username = "Anonymous"
-        print("Creating a new user!")
+    init(username: String) {
+        self.username = username
+        print("Creating a new user!\(username)")
     }
 }
 
 // Runs the initializer code since there is nothing specified
-var user = User()
-print(user.username)
+//var user = User()
+var user2 = User(username:"ss")
+//print(user.username)
 
 
 
