@@ -4,17 +4,20 @@ import Cocoa
 struct User {
     var username: String
     
+    
+}
+
+extension User {
     // Initializer provides a value for each property
-    init(username: String) {
-        self.username = username
+    init() {
+        username = "Anonymous"
         print("Creating a new user!\(username)")
     }
 }
-
 // Runs the initializer code since there is nothing specified
-//var user = User()
+var user = User()
 var user2 = User(username:"ss")
-//print(user.username)
+print(user.username)
 
 
 
@@ -66,7 +69,7 @@ struct Student {
     // In this case only the change in structure with trigger the change in this variable
     static var classSize = 0
     var name: String
-
+    
     init(name: String) {
         self.name = name
         // don't have to use self. for static properties
@@ -85,11 +88,11 @@ let taylor = Student(name: "Taylor")
 
 struct Person {
     public var id: String
-
+    
     init(id: String) {
         self.id = id
     }
-
+    
     func identify() -> String {
         return "My social security number is \(id)"
     }
