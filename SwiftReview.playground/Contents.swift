@@ -25,4 +25,30 @@ print("The album is \(album)")
 
 
 // Enumeration
+// Enum creates a type
+enum WeatherType {
+    case sun
+    case cloud
+    case rain
+    // need input when declared
+    case wind(speed: Int)
+    case snow
+}
 
+
+func getHaterStatus(weather: WeatherType) -> String? {
+    switch weather {
+    case .sun:
+        return nil
+        
+    // declare a constant here and use where to check its values
+    case .wind(let speed) where speed < 10:
+        return "meh"
+    case .cloud, .wind:
+        return "dislike"
+    case .rain, .snow:
+        return "hate"
+    }
+}
+
+getHaterStatus(weather: .cloud)
