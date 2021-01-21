@@ -14,5 +14,15 @@ func albumReleased(year: Int) -> String? {
     }
 }
 // Album may or may not have a value, therefore we add "?" to let swift know if there is nil, the code shouldn't run
-let album = albumReleased(year: 2006)?.uppercased()
+//let album = albumReleased(year: 2006)?.uppercased()
+//print("The album is \(album)")
+
+// Nil coalescing operator
+// Give a default value when a nil occurs
+let album = albumReleased(year: 2006) ?? "unknown"
 print("The album is \(album)")
+
+
+
+// Enumeration
+
