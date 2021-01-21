@@ -52,3 +52,32 @@ func getHaterStatus(weather: WeatherType) -> String? {
 }
 
 getHaterStatus(weather: .cloud)
+
+
+
+// Loop Review
+// While Loop
+var counter = 0
+
+while true {
+    print("Counter is now \(counter)")
+    counter += 1
+    
+    // Need a case to break from the loop in order to stop it from running infinitely
+    if counter == 556 {
+        break
+    }
+}
+
+
+var songs = ["Shake it Off", "You Belong with Me", "Look What You Made Me Do"]
+
+for song in songs {
+    if song == "You Belong with Me" {
+        // Continue means skip the one that is being iterated
+        // Break means stop execution of code
+        continue
+    }
+
+    print("My favorite song is \(song)")
+}
